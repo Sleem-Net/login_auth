@@ -1,0 +1,46 @@
+body{
+    background-color: grey;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+}
+
+.form{
+    width: 600px;
+    height: 500px;
+    background: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input{
+    margin: 0.5rem;
+    padding: 0.5rem;
+    width: 20rem;
+    border: 1px solid dodgerblue;
+    border-radius: 0.4rem;
+    outline: none;
+}
+
+button{
+    padding: 0.5rem;
+    background: dodgerblue;
+    color: whitesmoke;
+    border: none;
+    outline: none;
+    border-radius: 0.4rem;
+
+    
+
+}
